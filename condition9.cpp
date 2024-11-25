@@ -16,7 +16,6 @@ int main() {
     else
         bill = 100 * 5 + 200 * 10 + (units - 300) * 15;
 
-    cout << "Your electricity bill is: ₹" << bill << endl;
-
+    cout << "Your electricity bill is: "<< bill << endl;
     return 0;
 }
